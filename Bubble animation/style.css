@@ -1,0 +1,128 @@
+body {
+    background-image: url(undersea.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+.underwater {
+    width:9%;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 1110px;
+    background: transparent;
+    color: rgb(150, 219, 228);
+    border: 1px solid rgb(93, 187, 216);
+    border-radius: 40px;
+    font-size: 32px;
+    font-family: sans-serif;
+    outline: none;
+    text-align: center;
+    
+}
+a:link{
+    text-decoration: none;
+}
+.underwater  a:visited{
+    color: rgb(255, 255, 255);
+    
+ }
+ .underwater  a:hover{
+    color: black;
+ }
+ .underwater  a:active{
+    color:green;
+ }
+
+ .bubble{
+    color: rgb(252, 250, 250);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 4px 4px 10px rgb(255, 255, 255);
+    
+ }
+.navbar
+{
+    
+        
+        width: 1px;
+        height:100px;
+        background-color: #0c0c0c;
+        height: 100px;
+        border-top: 4px;
+
+}
+
+
+
+ .bubble1 img{
+width: 80px;
+animation: bubble 7s linear infinite;
+
+ }
+ .bubble1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom:-450px;
+ 
+ }
+ @keyframes bubble{
+     0%{
+        transform: translateY(0);
+        opacity: 1;
+        
+     }
+     50%{
+        
+        opacity: 1;
+     }
+     
+     
+     70%{
+        
+        opacity: 0.5;}
+     100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+     }
+
+ }
+ .bubble1 img:nth-child(1){
+    animation-delay: 2s;
+
+ }
+ .bubble1 img:nth-child(2){
+    animation-delay: 1s;
+
+ }
+ .bubble1 img:nth-child(3){
+    animation-delay: 1.5s;
+
+ }
+ .bubble1 img:nth-child(4){
+    animation-delay: 3s;
+
+ }
+ .bubble1 img:nth-child(5){
+    animation-delay: 4s;
+
+ }
+ .bubble1 img:nth-child(6){
+    animation-delay: 5s;
+
+ }
+ .bubble1 img:nth-child(7){
+    animation-delay: 7s;
+
+ }
+ .bubble1 img:nth-child(8){
+    animation-delay: 9s;
+
+ }
